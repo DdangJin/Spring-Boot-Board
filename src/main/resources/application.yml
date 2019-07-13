@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view
+      suffix: .jsp
+  datasource:
+    username: root
+    password: new1234!
+    url: jdbc:mysql://localhost:43210/ssumm?useSSL=false
+    driver-class-name: org.mariadb.jdbc.Driver
